@@ -1,11 +1,17 @@
 # 🏭 Plant Operations Brain
 
+[![Live Demo App](https://img.shields.io/badge/🚀%20Live%20App-Streamlit%20Cloud-FF4B4B.svg?style=for-the-badge&logo=streamlit)](https://plant-operation-brain-amduv45vm9kibjyjwkwkmh.streamlit.app)
 [![ET AI Hackathon 2026](https://img.shields.io/badge/ET%20AI%20Hackathon-2026-orange.svg)](https://github.com/Rachith000bharadwaj/Plant-Operation-Brain)
 [![Problem Statement #8](https://img.shields.io/badge/Problem%20Statement-%238%20Industrial%20Knowledge%20Intelligence-blue.svg)](https://github.com/Rachith000bharadwaj/Plant-Operation-Brain)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
 > **Grounded Industrial Knowledge Intelligence via Hybrid GraphRAG, Multimodal Field Agents, and Honest Abstention**
+
+🌐 **Live Deployed Application**: [https://plant-operation-brain-amduv45vm9kibjyjwkwkmh.streamlit.app](https://plant-operation-brain-amduv45vm9kibjyjwkwkmh.streamlit.app)
+
+---
+
+## 🏭 Overview
 
 **Plant Operations Brain** is an AI-powered industrial knowledge platform designed for processing plants, chemical facilities, power stations, and manufacturing complexes. It converts scattered, unstructured operational documents (Standard Operating Procedures, maintenance logs, inspection reports, equipment manuals, regulatory standards, and shift handover records) into a single, reliable source of truth with strict source citations and safety guarantees.
 
@@ -66,13 +72,12 @@ Cited Answer / Refusal   Specialist Agent Orchestrator
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Quick Start & Live Access
 
-### Prerequisites
-- Python 3.10 or higher
-- NVIDIA GPU with CUDA support recommended (CPU fallback available)
+### 🌐 Live Hosted App
+Access the live application directly: **[https://plant-operation-brain-amduv45vm9kibjyjwkwkmh.streamlit.app](https://plant-operation-brain-amduv45vm9kibjyjwkwkmh.streamlit.app)**
 
-### Installation
+### Local Installation
 
 ```bash
 # 1. Clone the repository
@@ -83,7 +88,6 @@ cd Plant-Operation-Brain
 pip install -r requirements.txt
 
 # 3. Configure API key in .env file
-# Copy .env configuration and add your Gemini or Claude API key
 GEMINI_API_KEY=your_gemini_api_key_here
 
 # 4. Launch the Streamlit Web Application
@@ -107,7 +111,7 @@ docker run -p 8501:8501 plant-operations-brain
 ├── app.py                          # Streamlit Web Application & UI Shell
 ├── requirements.txt                # Python Dependencies
 ├── Dockerfile                      # Single-container Air-Gapped Build
-├── README.md                       # Project Documentation
+├── README.md                       # Project Documentation & Live Link
 ├── Report.pdf                      # IEEE Standard Technical Paper
 ├── PPT.pptx                        # 16:9 Widescreen Pitch Presentation
 ├── .env                            # Provider Settings & Configuration
@@ -118,7 +122,7 @@ docker run -p 8501:8501 plant-operations-brain
 │   ├── conflict.py                 # Cross-Document Contradiction Engine
 │   ├── interview.py                # Tribal Knowledge Extractor & Voice Assistant
 │   ├── orchestrator.py             # Specialist Agent Dispatch Router
-│   ├── sensors.py                  # Telemetry Monitoring & Anomaly Explanation
+│   ├── sensors.py                  # Telemetry Monitoring & Anomaly Reasoning
 │   └── eval.py                     # Empirical Evaluation & Benchmark Harness
 ├── data/                           # Plant Documentation Corpus
 └── assets/                         # System Visuals & Flowcharts
