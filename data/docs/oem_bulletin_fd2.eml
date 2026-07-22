@@ -1,0 +1,27 @@
+From: service.desk@fanoem.example.com
+To: maintenance.planning@plantworks.example.in
+Cc: n.iyer@plantworks.example.in
+Subject: Service Bulletin FB-2025-09 - Revised Lubrication Interval - FD Fan Model AXF-900
+Date: Tue, 09 Dec 2025 14:05:00 +0530
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+This bulletin applies to AXF-900 series forced draft fans (your unit: FD-2).
+
+Field data from high-ash coal and biomass sites shows accelerated grease
+degradation. Effective immediately, the recommended bearing lubrication
+interval is revised:
+
+  OLD: every 500 running hours
+  NEW: every 250 running hours (high-ash environments)
+
+Failure to adopt the revised interval may lead to lubrication starvation,
+elevated bearing temperature and trip. Please update your SOPs and confirm
+adoption within 30 days.
+
+Action owner at your site (per our records): N. Iyer, Maintenance Planning.
+
+Regards,
+Service Desk, FanOEM GmbH

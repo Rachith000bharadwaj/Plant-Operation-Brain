@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/index/        # generated embeddings cache
+*.faiss
+.DS_Store
+data/drafts/
+
+# Exclude video files
+*.mp4
+*.avi
+*.mov
+*.wav
+Video.mp4
+Video Project 16.mp4

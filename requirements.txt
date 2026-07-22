@@ -1,0 +1,28 @@
+# --- Core AI ---
+google-genai>=0.3.0        # Google Gemini API (free tier, default provider)
+anthropic>=0.40.0          # Claude API (best quality, for final demo)
+sentence-transformers>=3.0 # Local embeddings (free, runs on your GPU)
+numpy>=1.26                # Vector math / similarity search
+
+# --- Document ingestion ---
+pymupdf>=1.24              # Fast, reliable PDF text extraction
+openpyxl>=3.1             # Excel / spreadsheet reading
+python-docx>=1.1          # Word docs (optional but common in plants)
+
+# --- Knowledge graph (Phase 2) ---
+networkx>=3.0             # The knowledge graph data structure
+pyvis>=0.3.2              # Interactive graph visualization in the UI
+
+# --- UI ---
+streamlit>=1.40           # The whole frontend in pure Python
+
+# --- Utilities ---
+python-dotenv>=1.0        # Load API key from .env file safely
+pyttsx3>=2.90             # Offline text-to-speech (spoken answers)
+
+# --- OCR for scanned PDFs ---
+# Two tiers: (1) offline Tesseract if installed, (2) vision-LLM fallback that
+# needs NO local binary — so scanned inspection forms are read out of the box
+# whenever an AI provider is configured. The packages below only enable tier 1.
+# pytesseract>=0.3.10   # optional: offline OCR (needs the Tesseract binary too)
+# pillow>=10.0          # optional: image handling for tier-1 OCR

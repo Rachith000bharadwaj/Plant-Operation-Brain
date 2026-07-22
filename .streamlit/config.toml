@@ -1,0 +1,12 @@
+[theme]
+# Claude-style warm light theme so native widgets (charts, tables, inputs)
+# match the ivory CSS instead of clashing with dark panels.
+base = "light"
+primaryColor = "#D97757"              # Claude coral — buttons, toggles, focus
+backgroundColor = "#FAF9F5"           # warm ivory page
+secondaryBackgroundColor = "#F0EEE6"  # panels / sidebar / inputs
+textColor = "#1F1E1D"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
